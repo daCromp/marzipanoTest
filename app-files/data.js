@@ -1,8 +1,77 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-middletest360-8000x4000",
-      "name": "MiddleTest360-8000x4000",
+      "id": "0-middletest360-8000x4000-1",
+      "name": "MiddleTest360-8000x4000 (1)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "yaw": 0.20615049341782665,
+        "pitch": 0.24924247108700115,
+        "fov": 1.2061874717363192
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.072647346894545,
+          "pitch": 0.08300331686959517,
+          "rotation": 6.283185307179586,
+          "target": "2-righttest360-8000x4000"
+        },
+        {
+          "yaw": -3.0916231452551557,
+          "pitch": 0.07276563886455989,
+          "rotation": 0,
+          "target": "1-lefttest360-8000x4000"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.0422668515347553,
+          "pitch": 0.35246735631061554,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": 2.0346816557224994,
+          "pitch": 0.39310520243751057,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.9325045956207418,
+          "pitch": 0.41262348047140307,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.0384927570742342,
+          "pitch": 0.31459543637859966,
+          "title": "Title",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "1-lefttest360-8000x4000",
+      "name": "LeftTest360-8000x4000",
       "levels": [
         {
           "tileSize": 256,
@@ -28,15 +97,128 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      "linkHotspots": [
+        {
+          "yaw": -3.126667658503578,
+          "pitch": 0.13720737751786416,
+          "rotation": 0,
+          "target": "0-middletest360-8000x4000-1"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.4318358730938332,
+          "pitch": 0.3687791253721535,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": 0.47885022223729656,
+          "pitch": 0.3752993111642766,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.137602761988072,
+          "pitch": 0.36173046143552057,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.332781772230872,
+          "pitch": 0.3689093728037012,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": 1.3945045907971085,
+          "pitch": 0.3867602269206003,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": 2.2445659041960866,
+          "pitch": 0.3726537205459728,
+          "title": "Title",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "2-righttest360-8000x4000",
+      "name": "RightTest360-8000x4000",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.1289175411629717,
+          "pitch": 0.0961392253027924,
+          "rotation": 0,
+          "target": "0-middletest360-8000x4000-1"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.623429538309388,
+          "pitch": 0.39632282935220253,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": 1.172690533276322,
+          "pitch": 0.09009364997792702,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.4205912466156274,
+          "pitch": 0.3699267391439456,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.2518338538676126,
+          "pitch": 0.2885916749310553,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": 2.2646064255481217,
+          "pitch": 0.329377820660655,
+          "title": "Title",
+          "text": "Text"
+        }
+      ]
     }
   ],
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
+    "fullscreenButton": true,
     "viewControlButtons": false
   }
 };

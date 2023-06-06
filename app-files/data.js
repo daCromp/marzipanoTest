@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-middletest360-8000x4000-1",
-      "name": "MiddleTest360-8000x4000 (1)",
+      "name": "mittiger Bereich",
       "levels": [
         {
           "tileSize": 256,
@@ -46,32 +46,32 @@ var APP_DATA = {
         {
           "yaw": 1.0422668515347553,
           "pitch": 0.35246735631061554,
-          "title": "Title",
+          "title": "1",
           "text": "Text"
         },
         {
           "yaw": 2.0346816557224994,
           "pitch": 0.39310520243751057,
-          "title": "Title",
+          "title": "2",
           "text": "Text"
         },
         {
           "yaw": -1.9325045956207418,
           "pitch": 0.41262348047140307,
-          "title": "Title",
+          "title": "3",
           "text": "Text"
         },
         {
           "yaw": -1.0384927570742342,
           "pitch": 0.31459543637859966,
-          "title": "Title",
+          "title": "4",
           "text": "Text"
         }
       ]
     },
     {
       "id": "1-lefttest360-8000x4000",
-      "name": "LeftTest360-8000x4000",
+      "name": "hinterer",
       "levels": [
         {
           "tileSize": 256,
@@ -109,44 +109,32 @@ var APP_DATA = {
         {
           "yaw": -0.4318358730938332,
           "pitch": 0.3687791253721535,
-          "title": "Title",
+          "title": '<p><i>"Schöne Zeit"</i></p>' ,
           "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/test.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": 0.47885022223729656,
           "pitch": 0.3752993111642766,
-          "title": "Title",
-          "text": "Text"
-        },
-        {
-          "yaw": -2.137602761988072,
-          "pitch": 0.36173046143552057,
-          "title": "Title",
+          "title": "5",
           "text": "Text"
         },
         {
           "yaw": -1.332781772230872,
           "pitch": 0.3689093728037012,
-          "title": "Title",
+          "title": "6",
           "text": "Text"
         },
         {
           "yaw": 1.3945045907971085,
           "pitch": 0.3867602269206003,
-          "title": "Title",
-          "text": "Text"
-        },
-        {
-          "yaw": 2.2445659041960866,
-          "pitch": 0.3726537205459728,
-          "title": "Title",
+          "title": "7",
           "text": "Text"
         }
       ]
     },
     {
       "id": "2-righttest360-8000x4000",
-      "name": "RightTest360-8000x4000",
+      "name": "Eingangsbereich",
       "levels": [
         {
           "tileSize": 256,
@@ -184,31 +172,19 @@ var APP_DATA = {
         {
           "yaw": 0.623429538309388,
           "pitch": 0.39632282935220253,
-          "title": "Title",
+          "title": "8",
           "text": "Text"
         },
         {
           "yaw": 1.172690533276322,
           "pitch": 0.09009364997792702,
-          "title": "Title",
-          "text": "Text"
-        },
-        {
-          "yaw": -1.4205912466156274,
-          "pitch": 0.3699267391439456,
-          "title": "Title",
+          "title": "9",
           "text": "Text"
         },
         {
           "yaw": -2.2518338538676126,
           "pitch": 0.2885916749310553,
-          "title": "Title",
-          "text": "Text"
-        },
-        {
-          "yaw": 2.2646064255481217,
-          "pitch": 0.329377820660655,
-          "title": "Title",
+          "title": "10",
           "text": "Text"
         }
       ]
@@ -217,7 +193,7 @@ var APP_DATA = {
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
+    "autorotateEnabled": false,
     "fullscreenButton": true,
     "viewControlButtons": false
   }

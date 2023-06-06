@@ -46,26 +46,26 @@ var APP_DATA = {
         {
           "yaw": 1.0422668515347553,
           "pitch": 0.35246735631061554,
-          "title": "1",
-          "text": "Text"
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/1.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": 2.0346816557224994,
           "pitch": 0.39310520243751057,
-          "title": "2",
-          "text": "Text"
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/2.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": -1.9325045956207418,
           "pitch": 0.41262348047140307,
-          "title": "3",
-          "text": "Text"
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/3.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": -1.0384927570742342,
           "pitch": 0.31459543637859966,
-          "title": "4",
-          "text": "Text"
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/4.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         }
       ]
     },
@@ -110,25 +110,25 @@ var APP_DATA = {
           "yaw": -0.4318358730938332,
           "pitch": 0.3687791253721535,
           "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
-          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/test.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/11.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": 0.47885022223729656,
           "pitch": 0.3752993111642766,
           "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
-          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/test.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/5.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": -1.332781772230872,
           "pitch": 0.3689093728037012,
-          "title": "6",
-          "text": "Text"
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/6.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": 1.3945045907971085,
           "pitch": 0.3867602269206003,
-          "title": "7",
-          "text": "Text"
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/7.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         }
       ]
     },
@@ -172,20 +172,20 @@ var APP_DATA = {
         {
           "yaw": 0.623429538309388,
           "pitch": 0.39632282935220253,
-          "title": "8",
-          "text": "Text"
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/8.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": 1.172690533276322,
           "pitch": 0.09009364997792702,
-          "title": "9",
-          "text": "Text"
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/9.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": -1.4205912466156274,
           "pitch": 0.3699267391439456,
-          "title": "10",
-          "text": "Text"
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/10.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         }
       ]
     }

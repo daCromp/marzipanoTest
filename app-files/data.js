@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-middletest360-8000x4000-1",
-      "name": "mittiger Bereich",
+      "name": "Elysium Art Gallery - 360° Tour",
       "levels": [
         {
           "tileSize": 256,
@@ -71,7 +71,7 @@ var APP_DATA = {
     },
     {
       "id": "1-lefttest360-8000x4000",
-      "name": "hinterer",
+      "name": "Elysium Art Gallery - 360° Tour",
       "levels": [
         {
           "tileSize": 256,
@@ -134,7 +134,7 @@ var APP_DATA = {
     },
     {
       "id": "2-righttest360-8000x4000",
-      "name": "Eingangsbereich",
+      "name": "Elysium Art Gallery - 360° Tour",
       "levels": [
         {
           "tileSize": 256,

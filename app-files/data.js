@@ -109,14 +109,14 @@ var APP_DATA = {
         {
           "yaw": -0.4318358730938332,
           "pitch": 0.3687791253721535,
-          "title": '<p><i>"Schöne Zeit"</i></p>' ,
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
           "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/test.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": 0.47885022223729656,
           "pitch": 0.3752993111642766,
-          "title": "5",
-          "text": "Text"
+          "title": '<p style="font-style: italic;">Schöne Zeit</p>' ,
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/test.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Schöne Zeit</h2><p style="font-style: italic; font-size: 16px;">- Max Mustermann</p><a href="https://www.google.com" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
         },
         {
           "yaw": -1.332781772230872,
@@ -186,7 +186,7 @@ var APP_DATA = {
           "pitch": 0.2885916749310553,
           "title": "10",
           "text": "Text"
-        }
+        },
       ]
     }
   ],

@@ -47,7 +47,12 @@ var APP_DATA = {
           "yaw": 1.0422668515347553,
           "pitch": 0.35246735631061554,
           "title": '<p style="font-style: italic;">Morgenröte</p>' ,
-          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/1.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Morgenröte</h2><p style="font-style: italic; font-size: 16px;">- Ava Sterling</p><a href="https://imaginum.netlify.app/kunstwerk/6480d69d4155d9e7bf619937" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>'
+          "text": '<div style="display: flex; align-items: center; width: 200px; height: 100px; margin-top: 30px; margin-bottom: 30px; margin-left: -10px; padding: 20px;"><img style="width: 100px; height: auto; margin-right: 20px;" src="artImg/1.jpg" alt="Image"><div style="flex: 1; font-family: Arial, sans-serif;"><h2 style="width: 160px; font-style: italic; font-size: 18px; margin-bottom: 4px;">Morgenröte</h2><p style="font-style: italic; font-size: 16px;">- Ava Sterling</p><a href="https://imaginum.netlify.app/kunstwerk/6480d69d4155d9e7bf619937" target="_blank" style="display: inline-block; padding: 3px 12px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 13px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 15px;">Mehr Infromationen</a></div>',
+          "pic": 'artImg/1.jpg',
+          "name": 'Morgenröte',
+          "artist": 'Ava Sterling',
+          "disc": '"Morgenröte" ist ein atemberaubendes Kunstwerk, das die Magie und Schönheit des Sonnenaufgangs einfängt. Es ist eine Darstellung des ersten Lichts des Tages, das den Himmel in sanften Pastellfarben und warmen Tönen erhellt.',
+          "link": 'https://imaginum.netlify.app/kunstwerk/6480d69d4155d9e7bf619937'
         },
         {
           "yaw": 2.0346816557224994,

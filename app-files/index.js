@@ -344,9 +344,59 @@
     modal.classList.add('info-hotspot-modal');
     document.body.appendChild(modal);
 
+    //create info box 
+
+    var infobox = document.createElement('div');
+    infobox.classList.add('info-box-styles');
+    infobox.innerHTML = `
+    <div style="display: flex;">
+      <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+        <img style="width: 300px; padding-top: 45px;" src="${hotspot.pic}" alt="Bild">
+      </div>
+      <div style="flex: 1; padding-left: 20px; padding-top: 100px;">
+        <p style="font-size: 40px; font-weight: bold;">${hotspot.name}</p>
+        <p style="font-size: 25px; font-style: italic; padding-top: 15px;">${hotspot.artist}</p>
+        <p style="font-size: 20px; padding-top: 30px; width: 450px;">${hotspot.disc}</p>
+        <a href="${hotspot.link}" target="_blank" style="margin-left: 90px; display: inline-block; padding: 12px 40px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 18px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 40px;">Mehr Infromationen</a>
+      </div>
+    </div>`;
+    infobox.style.display = 'none';
+    infobox.style.position = 'fixed';
+    infobox.style.top = '50%';
+    infobox.style.left = '50%';
+    infobox.style.transform = 'translate(-50%, -50%)';
+    infobox.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+    infobox.style.padding = '10px';
+    infobox.style.width = '1000px';
+    infobox.style.height = '550px';
+    infobox.style.borderRadius = '10px';
+    infobox.style.color = 'black';
+
+    var button = document.createElement('button');
+    button.textContent = 'Zeige/Verstecke Infobox';
+    button.position = 'fixed';
+    button.top = '10px';
+    button.right = '10px';
+
+    // Event Listener für den Button-Klick
+    button.addEventListener('click', function () {
+      if (infobox.style.display === 'none') {
+        infobox.style.display = 'block';
+      } else {
+        infobox.style.display = 'none';
+      }
+    });
+
+    infobox.appendChild(button);
+    document.body.appendChild(infobox);
+
+
     var toggle = function () {
-      wrapper.classList.toggle('visible');
-      modal.classList.toggle('visible');
+      // wrapper.classList.toggle('visible');
+      // modal.classList.toggle('visible');
+      // alert('TEST');
+      infobox.style.display = 'block';
+
     };
 
     // Show content when hotspot is clicked.

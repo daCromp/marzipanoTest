@@ -359,67 +359,16 @@
     //   }
     // };
 
-    function toggle() {
-      var temp = infobox.style.display;
-      if (temp === 'block') {
-        infobox.style.display = 'none';
-        var closeAnimation = document.getElementById(slideIn);
-        closeAnimation.classList.add('slideOut')
-      }
-      else {
-        infobox.style.display = 'block';
-      }
-    }
 
     var infobox = document.createElement('div');
     infobox.innerHTML = `
     <style>
-    .slideIn {
-      width: 100px;
-      height: 100px;
-      background-color: blue;
-      position: relative;
-      animation-name: slideIn;
-      animation-duration: 1s;
-      animation-fill-mode: forwards;
-    }
-
-    .slideOut {
-      width: 100px;
-      height: 100px;
-      background-color: blue;
-      position: relative;
-      animation-name: slideOut;
-      animation-duration: 1s;
-      animation-fill-mode: forwards;
-    }
     
-    @keyframes slideIn {
-      from {
-        transform: translateY(100%);
-        opacity: 0;
-      }
-      to {
-        transform: translateY(0);
-        opacity: 1;
-      }
-    }  
-    
-    @keyframes slideIn {
-      from {
-        transform: translateY(0);
-        opacity: 1;
-      }
-      to {
-        transform: translateY(100%);
-        opacity: 0;
-      }
-    }  
     </style>
     <div class="slideIn">
-    <div style="background-color: white; border-radius: 5px; width: 1000px; height: 550px;">
-    <img style="" src="./img/closeYellow.png" id="${hotspot.name}">
-    <div style="display: flex;">
+    <div style="background-color: #6D23E7; border-radius: 5px; width: 900px; height: 500px;">
+    <img style="width: 45px; float: right; cursor: pointer" src="./img/closeYellow.png" id="${hotspot.name}">
+    <div style="display: flex; color: white;">
       <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
         <img style="width: 300px; padding-top: 45px;" src="${hotspot.pic}" alt="Bild">
       </div>
@@ -438,14 +387,32 @@
     infobox.style.top = '50%';
     infobox.style.left = '50%';
     infobox.style.transform = 'translate(-50%, -50%)';
-    // infobox.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
     infobox.style.padding = '10px';
     infobox.style.width = '1000px';
     infobox.style.height = '550px';
     infobox.style.borderRadius = '10px';
     infobox.style.color = 'black';
+    infobox.style.marginTop = '-275px'; 
+    infobox.style.marginLeft = '-500px'; 
 
     document.body.appendChild(infobox);
+
+    function toggle() {
+      var temp = infobox.style.display;
+      var temp = infobox.style.display;
+      if (temp === 'block') {
+        infobox.classList.add('slideOut');
+        infobox.classList.remove('slideIn');
+        setTimeout(() => {
+          infobox.style.display = 'none';
+        }, 1000); // Wartezeit, bis die Animation abgeschlossen ist (1s)
+      }
+      else {
+        infobox.style.display = 'block';
+        infobox.classList.add('slideIn');
+        infobox.classList.remove('slideOut');
+      }
+    }
 
     var closeElement = document.getElementById(hotspot.name);
     closeElement.addEventListener("click", toggle);

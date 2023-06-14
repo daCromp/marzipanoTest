@@ -844,10 +844,3 @@ body.view-control-buttons .viewControlButton {
 }
 
 /* info box styling */
-
-
-.info-box-styles {
-  opacity: 1;
-  -webkit-transition: opacity 0.3s ease-in-out 0.4s;
-  transition: opacity 0.3s ease-in-out 0.4s;
-}

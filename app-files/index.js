@@ -346,9 +346,79 @@
 
     //create info box 
 
+    // var toggle = function () {
+    //   // wrapper.classList.toggle('visible');
+    //   // modal.classList.toggle('visible');
+    //   // alert('TEST');
+    //   var temp = infobox.style.display;
+    //   if (temp === 'block') {
+    //     infobox.style.display = 'none';
+    //   }
+    //   else {
+    //     infobox.style.display = 'block';
+    //   }
+    // };
+
+    function toggle() {
+      var temp = infobox.style.display;
+      if (temp === 'block') {
+        infobox.style.display = 'none';
+        var closeAnimation = document.getElementById(slideIn);
+        closeAnimation.classList.add('slideOut')
+      }
+      else {
+        infobox.style.display = 'block';
+      }
+    }
+
     var infobox = document.createElement('div');
-    infobox.classList.add('info-box-styles');
     infobox.innerHTML = `
+    <style>
+    .slideIn {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      position: relative;
+      animation-name: slideIn;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+
+    .slideOut {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      position: relative;
+      animation-name: slideOut;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes slideIn {
+      from {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }  
+    
+    @keyframes slideIn {
+      from {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      to {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+    }  
+    </style>
+    <div class="slideIn">
+    <div style="background-color: white; border-radius: 5px; width: 1000px; height: 550px;">
+    <img style="" src="./img/closeYellow.png" id="${hotspot.name}">
     <div style="display: flex;">
       <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
         <img style="width: 300px; padding-top: 45px;" src="${hotspot.pic}" alt="Bild">
@@ -359,46 +429,28 @@
         <p style="font-size: 20px; padding-top: 30px; width: 450px;">${hotspot.disc}</p>
         <a href="${hotspot.link}" target="_blank" style="margin-left: 90px; display: inline-block; padding: 12px 40px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 18px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 40px;">Mehr Infromationen</a>
       </div>
+    </div>
+    </div>
     </div>`;
+
     infobox.style.display = 'none';
     infobox.style.position = 'fixed';
     infobox.style.top = '50%';
     infobox.style.left = '50%';
     infobox.style.transform = 'translate(-50%, -50%)';
-    infobox.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+    // infobox.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
     infobox.style.padding = '10px';
     infobox.style.width = '1000px';
     infobox.style.height = '550px';
     infobox.style.borderRadius = '10px';
     infobox.style.color = 'black';
 
-    var button = document.createElement('button');
-    button.textContent = 'Zeige/Verstecke Infobox';
-    button.position = 'fixed';
-    button.top = '10px';
-    button.right = '10px';
-
-    // Event Listener für den Button-Klick
-    button.addEventListener('click', function () {
-      if (infobox.style.display === 'none') {
-        infobox.style.display = 'block';
-      } else {
-        infobox.style.display = 'none';
-      }
-    });
-
-    infobox.appendChild(button);
     document.body.appendChild(infobox);
 
+    var closeElement = document.getElementById(hotspot.name);
+    closeElement.addEventListener("click", toggle);
 
-    var toggle = function () {
-      // wrapper.classList.toggle('visible');
-      // modal.classList.toggle('visible');
-      // alert('TEST');
-      infobox.style.display = 'block';
-
-    };
-
+    // infobox.addEventListener('click', toggle);
     // Show content when hotspot is clicked.
     wrapper.querySelector('.info-hotspot-header').addEventListener('click', toggle);
 

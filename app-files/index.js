@@ -367,7 +367,7 @@
     </style>
     <div class="slideIn">
     <div style="background-color: #6D23E7; border-radius: 5px; width: 900px; height: 500px;">
-    <img style="width: 45px; float: right; cursor: pointer" src="./img/closeYellow.png" id="${hotspot.name}">
+    <img style="width: 45px; float: right; cursor: pointer" src="./img/closeNew.png" id="${hotspot.name}">
     <div style="display: flex; color: white;">
       <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
         <img style="width: 300px; padding-top: 45px;" src="${hotspot.pic}" alt="Bild">
@@ -376,7 +376,7 @@
         <p style="font-size: 40px; font-weight: bold;">${hotspot.name}</p>
         <p style="font-size: 25px; font-style: italic; padding-top: 15px;">${hotspot.artist}</p>
         <p style="font-size: 20px; padding-top: 30px; width: 450px;">${hotspot.disc}</p>
-        <a href="${hotspot.link}" target="_blank" style="margin-left: 90px; display: inline-block; padding: 12px 40px; border-radius: 30px; background-color: #FFED59; color: #fff; font-size: 18px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 40px;">Mehr Infromationen</a>
+        <a href="${hotspot.link}" target="_blank" style="margin-left: 90px; display: inline-block; padding: 12px 40px; border-radius: 30px; background-color: #FAFF00; color: #fff; font-size: 18px; color: black; text-decoration: none; text-align: center; cursor: pointer; margin-top: 40px;">Mehr Infromationen</a>
       </div>
     </div>
     </div>
@@ -392,8 +392,8 @@
     infobox.style.height = '550px';
     infobox.style.borderRadius = '10px';
     infobox.style.color = 'black';
-    infobox.style.marginTop = '-275px'; 
-    infobox.style.marginLeft = '-500px'; 
+    infobox.style.marginTop = '-275px';
+    infobox.style.marginLeft = '-500px';
 
     document.body.appendChild(infobox);
 
